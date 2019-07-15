@@ -18,7 +18,6 @@ class TLClassifier(object):
         curr_dir = os.path.dirname(os.path.realpath(__file__))
 
         # Use the value provided at init instead of a constant
-        # path_to_ckpt = curr_dir + '/trafficlight_model_sim/frozen_inference_graph.pb'
         path_to_ckpt = curr_dir + '/trafficlight_model_sim/' + model_filename
 
         path_to_labels = curr_dir + '/label_map.pbtxt'
